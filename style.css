@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    background-color: rgb(229, 42, 42);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+}
+
+.name{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.anchor{
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    position: relative;
+    bottom: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.second{
+    background-color: gray;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#searchbar{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline-color: white;
+    border: 0px solid white;
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.button{
+    height: 2.1rem;
+    border-radius: 10px;
+    background-color: rgb(229, 42, 42);
+    border: 0px solid rgb(229, 42, 42);
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-image: url(./mover.jpg);
+        /* background-repeat: no-repeat;
+        background-size: cover; */
+    padding: 3rem;   
+}
+
+.hero > h2{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.hero > button{
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.popular{
+    text-align: center;
+    padding: 1.5rem;
+    background-color: white;
+}
+
+.popular > h2{
+    font-size: 3rem;
+}
+
+.card{
+    display: flex;
+    padding-bottom: 2rem;
+    overflow-x: scroll;
+}
+
+.one{
+    background-color: rgb(164, 157, 157);   
+    border: 10px solid rgb(164, 157, 157);
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.img{
+    height: 25rem;
+    width: 15rem;
+}
+
+.movie_name{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.last{
+    text-align: center;
+}
+
+.last > img{
+    max-width: 80%;
+}
+
+
+.down, .down2{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.down > div > img{
+    height: 250px;
+    border-radius: 15px;
+}
+
+
+.down >div{
+
+    margin: 15px;
+}
+
+.down2{
+    font-size: 25px;
+}
+
+.back_grey{
+    height: 600px;
+    background-color: rgb(43, 49, 72);
+}
+
+.lol{
+    width: 90vw;
+    display: flex;
+}
+
+/* For mobile Phone */
+@media (max-width:500px)
+{
+    .first{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .anchor{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .down{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
